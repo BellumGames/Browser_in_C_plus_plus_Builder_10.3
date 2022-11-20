@@ -1,0 +1,39 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "HtmlBrowser.h"
+#include "WebBrowser.h"
+#include "URL.h"
+#include <fstream>
+#include <iostream>
+#include <iomanip>
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+Thtml *html;
+//---------------------------------------------------------------------------
+using namespace std;
+__fastcall Thtml::Thtml(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall Thtml::BackToBrowserClick(TObject *Sender)
+{
+	Browser->Show();
+	html->Hide();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall Thtml::ReadClick(TObject *Sender)
+{
+	HTML fisier;
+	fisier.Read();
+	//Memo->Lines->Text = fisier.File;
+}
+//---------------------------------------------------------------------------
+
+

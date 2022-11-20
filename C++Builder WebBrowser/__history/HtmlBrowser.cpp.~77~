@@ -1,0 +1,61 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "HtmlBrowser.h"
+#include "WebBrowser.h"
+#include "URL.h"
+#include <fstream>
+#include <iostream>
+#include <iomanip>
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+Thtml *html;
+//---------------------------------------------------------------------------
+using namespace std;
+__fastcall Thtml::Thtml(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall Thtml::BackToBrowserClick(TObject *Sender)
+{
+	Browser->Show();
+	html->Hide();
+	//list.AddNode("C:\\Users\bucur\Desktop\file.html");
+	//WebBrowser -> Navigate("C:\\Users\bucur\Desktop\file.html");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall Thtml::ReadClick(TObject *Sender)
+{
+	AnsiString File;
+	AnsiString Temp;
+	AnsiString Temp2;
+	AnsiString Final;
+
+	TStreamReader* Reader;
+	Reader = new TStreamReader("file.html");
+    while (!Reader->EndOfStream)
+	{
+		AnsiString S = Reader->ReadLine();
+		Temp = Temp + S + "\n";
+		int size = Temp.ElementSize();
+		AnsiString quadLast = Temp.SubString(size-4,4);
+		AnsiString tripleFirst = Temp.SubString(0,3);
+		if (quad == "</i>")
+		{
+		   if (tripleFirst == "<i>") {
+                Temp2 = Temp.SubString(4,size-5);
+		   }
+		}
+	}
+    File = Temp;
+	Memo->Lines->Text = File;
+}
+//---------------------------------------------------------------------------
+
+

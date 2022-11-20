@@ -1,0 +1,45 @@
+//---------------------------------------------------------------------------
+#ifndef URLH
+#define URLH
+#include <iostream>
+using namespace std;
+//clasele mele aici
+ class URL
+ {
+	private:
+
+		typedef struct LRU
+		{
+			AnsiString url;
+			LRU *next;
+		}* node;
+
+		node head;
+		node curr;
+		node temp;
+
+	public:
+
+		URL();
+		~URL();
+		void AddNode(AnsiString addData);
+		void DeleteNode();
+		AnsiString Last();
+
+ };
+
+ class HTML : public URL
+ {
+	private:
+
+		int member;
+
+	public:
+
+		void Show();
+        HTML();
+		~HTML();
+ };
+//---------------------------------------------------------------------------
+#endif
+

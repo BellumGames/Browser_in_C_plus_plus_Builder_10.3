@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/01 17:46:15.000.543,=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Project1PCH1.h</Transaction>
+    <Transaction>2020/12/01 17:46:15.000.652,=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Unit1.cpp</Transaction>
+    <Transaction>2020/12/01 17:50:44.000.802,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\WebBrowser.dfm=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Unit1.dfm</Transaction>
+    <Transaction>2020/12/01 17:50:44.000.802,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\WebBrowser.h=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Unit1.h</Transaction>
+    <Transaction>2020/12/01 17:50:44.000.802,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\WebBrowser.cpp=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Unit1.cpp</Transaction>
+    <Transaction>2020/12/01 17:50:46.000.801,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Project1PCH1.h=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Project1PCH1.h</Transaction>
+    <Transaction>2020/12/01 17:50:48.000.387,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Project1.cbproj=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\Project1.cbproj</Transaction>
+    <Transaction>2020/12/08 12:20:49.000.110,=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.cpp</Transaction>
+    <Transaction>2020/12/08 13:45:40.000.076,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.cpp=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\URL.cpp</Transaction>
+    <Transaction>2020/12/08 13:45:40.000.076,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.h=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\URL.h</Transaction>
+    <Transaction>2021/01/08 14:01:43.000.206,=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.cpp</Transaction>
+    <Transaction>2021/01/08 14:02:52.000.528,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\HtmlBrowser.dfm=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.dfm</Transaction>
+    <Transaction>2021/01/08 14:02:52.000.528,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\HtmlBrowser.cpp=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.cpp</Transaction>
+    <Transaction>2021/01/08 14:02:52.000.528,C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\HtmlBrowser.h=C:\Users\bucur\Desktop\Facultate\An 2\Semestrul I\Pr. Programare orientata pe obiecte\PROIECT\C++Builder WebBrowser\Unit1.h</Transaction>
+    <Transaction>2021/01/11 14:15:39.000.616,=C:\Users\bucur\Desktop\file.html</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="C:"/>
+    <File Path="C:\file.html"/>
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="URL.cpp"/>
+    <File Path="URL.cpp"/>
+    <File Path="URL.h"/>
+    <File Path="WebBrowser.cpp"/>
+    <File Path="WebBrowser.cpp"/>
+    <File Path="WebBrowser.dfm"/>
+    <File Path="WebBrowser.h"/>
+    <File Path="HtmlBrowser.cpp"/>
+    <File Path="HtmlBrowser.cpp"/>
+    <File Path="HtmlBrowser.dfm"/>
+    <File Path="HtmlBrowser.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
